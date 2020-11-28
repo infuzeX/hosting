@@ -829,7 +829,7 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 .features i {
 	margin-bottom: 10px;
 	font-size: 55px;
-	color: #c5645b;
+	color: #2F8FB0;
 }
 
 .features h2 {
@@ -888,7 +888,7 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 	width: 100%;
 	font-size: 64px;
 	text-align: center;
-	color: #37485c;
+	color: #2F8FB0;
 	font-weight: 900;
 }
 
@@ -954,7 +954,7 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background: #65454c;
+	background: #2F8FB0;
 	padding: 12px 0;
 	text-align: center;
 	letter-spacing: .07em;
@@ -1235,11 +1235,11 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 }
 
 .testimonials h2 span {
-	color: #b86662;
+	color: #2F8FB0;
 }
 
 .testimonials i {
-	color: #b86662;
+	color: #2F8FB0;
 	font-size: 56px;
 }
 
