@@ -267,6 +267,8 @@ header {
 	background: url(images/header2.png) bottom center no-repeat;
 	min-height: 880px;
 	position: relative;
+	
+   
 }
 
 header .message {
@@ -351,8 +353,7 @@ header .message .button:hover {
 }
 
 .top {
-	background: #232e3f;
-	background: rgba(35,46,63,.6);
+	opacity: 1;
 	padding: 0;
 	width: 100%;
 	position: absolute;
