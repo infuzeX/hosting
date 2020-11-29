@@ -264,7 +264,7 @@ select {
 }
 
 header {
-	background: url(images/header.png) bottom center no-repeat;
+	background: url(images/header2.png) bottom center no-repeat;
 	min-height: 880px;
 	position: relative;
 }
@@ -370,7 +370,7 @@ header .message .button:hover {
 }
 
 .logo {
-	margin: 15px 0 12px;
+	margin: 5px 0 5px;
 }
 
 header h2 {
