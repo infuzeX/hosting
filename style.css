@@ -264,7 +264,7 @@ select {
 }
 
 header {
-	background: url(images/header_bg.png) bottom center no-repeat;
+	background: url(images/header.png) bottom center no-repeat;
 	min-height: 880px;
 	position: relative;
 }
