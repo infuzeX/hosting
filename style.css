@@ -3507,6 +3507,9 @@ footer {
 	border-right: 1px solid #222d3a;
 	width: 20%;
 }
+.social .new{
+	background-color: transparent;
+}
 
 .social ul li:last-child {
 	border-right: 0;
