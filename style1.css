@@ -882,10 +882,10 @@ footer {
 	color: #ccc;
 }
 
-.footerlinks ul li a:hover {
+/* .footerlinks ul li a:hover {
 	color: #c5645b;
 	text-decoration: none;
-}
+} */
 
 .footerlinks p {
 	color: #ccc;
@@ -944,9 +944,9 @@ footer {
 
 .social ul li {
 	text-align: center;
-	background: #2a3848;
+	/* background: #2a3848; */
 	padding: 6px 0;
-	border-right: 1px solid #222d3a;
+	/* border-right: 1px solid #222d3a; */
 	width: 20%;
 }
 .social .new{
@@ -965,7 +965,7 @@ footer {
 	text-decoration: none;
 }
 
-.social ul li.facebook:hover {
+/* .social ul li.facebook:hover {
 	background: #214379;
 }
 
@@ -983,7 +983,7 @@ footer {
 
 .social ul li.pinterest:hover {
 	background: #e4232f;
-}
+} */
 
 p.copyright {
 	font-size: 12px;
