@@ -1071,13 +1071,14 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 	
 	
 	font-size: 20px;
-    padding: 10px 37px;
+    padding: 8px 40px;
 	border-radius: 30px;
 }
 
 .pricing-table .cta-button span a:hover {
-	color: white;
+	color: White;
 	text-decoration: none;
+	background-color: #2F8FB0;
 }
 
 .pricingboxes-comparison {
