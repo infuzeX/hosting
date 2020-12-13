@@ -83,13 +83,13 @@ h6 {
 }
 
 a {
-	color: #b86662;
+	color: #06c6f9;
 	text-decoration: none;
 	line-height: inherit;
 }
 
 a:hover {
-	color: #37485c;
+	color: #06c6f9;
 	text-decoration: none;
 }
 
@@ -3395,7 +3395,7 @@ footer {
 
 .contacts a:hover {
 	text-decoration: none;
-	color: #c5645b;
+	color: #06c6f9;
 }
 
 .contacts i {
