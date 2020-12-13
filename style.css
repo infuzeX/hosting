@@ -2031,7 +2031,7 @@ ul.domainfeatures li .circle {
 }
 
 .contact-section {
-	padding: 50px 0;
+	
 }
 
 .contact-details h4 {
@@ -4634,4 +4634,12 @@ p.copyright {
 
 .alert-box.alert-close {
 	opacity: 0;
+}
+/**************************************************************************************************************/
+.social-icon{
+	display: flex;
+	justify-content: center;
+}
+.icon{
+padding-right: 10px;
 }
