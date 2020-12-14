@@ -347,6 +347,7 @@ header .message .button {
 	margin-right: 35px;
 
 	font-weight: 700;
+	
 }
 
 header .message .button:hover {
@@ -4664,3 +4665,47 @@ padding-right: 10px;
 hr{
 	
 }
+/***************************************/
+
+.button1 {
+	
+	background-color: black;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: none;
+	color: #9AEBA6;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 20px;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-animation: glowing 1500ms infinite;
+	-moz-animation: glowing 1500ms infinite;
+	-o-animation: glowing 1500ms infinite;
+	animation: glowing 1500ms infinite;
+  }
+  @-webkit-keyframes glowing {
+	0% { background-color: black; -webkit-box-shadow: 0 0 3px black; }
+	50% { background-color: black; -webkit-box-shadow: 0 0 40px black; }
+	100% { background-color: black; -webkit-box-shadow: 0 0 3px black; }
+  }
+  
+  @-moz-keyframes glowing {
+	0% { background-color: black; -moz-box-shadow: 0 0 3px black; }
+	50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #9AEBA6; }
+	100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #9AEBA6; }
+  }
+  
+  @-o-keyframes glowing {
+	0% { background-color: black box-shadow: 0 0 3px black; }
+	50% { background-color: black; box-shadow: 0 0 40px black; }
+	100% { background-color: black; box-shadow: 0 0 3px black; }
+  }
+  
+  @keyframes glowing {
+	0% { background-color: black; box-shadow: 0 0 3px black; }
+	50% { background-color:black; box-shadow: 0 0 40px #9AEBA6; }
+	100% { background-color: black; box-shadow: 0 0 3px black; }
+  }
