@@ -59,36 +59,36 @@
                     <div class="main-timeline">
                       
                         <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Choose your preferred hosting plan</h3>
+                            <div class="timeline-icon"><i class="fas fa-spa"></i></div>
+                            <div class="timeline-content waviy">
+                                <h3 class="title --i:1">Choose your preferred hosting plan</h3>
                                 <p class="description" style="color: transparent;">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
                                 </p>
                             </div>
                         </a>
                         <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-credit-card"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Pay for the plan</h3>
+                            <div class="timeline-icon"><i class="fas fa-money-bill-wave"></i></div>
+                            <div class="timeline-content waviy">
+                                <h3 class="title --i:1">Pay for the plan</h3>
                                 <p class="description"style="color: transparent;">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
                                 </p>
                             </div>
                         </a>
                         <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Wait for the E-mail from our team</h3>
+                            <div class="timeline-icon"><i class="fas fa-envelope-square"></i></div>
+                            <div class="timeline-content waviy">
+                                <h3 class="title --i:1">Wait for the E-mail from our team</h3>
                                 <p class="description"style="color: transparent;">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
                                 </p>
                             </div>
                         </a>
                         <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Give the required details to our team over E-mail</h3>
+                            <div class="timeline-icon"><i class="fas fa-info-circle"></i></div>
+                            <div class="timeline-content waviy">
+                                <h3 class="title --i:1">Give the required details to our team over E-mail</h3>
                                 <p class="description"style="color: transparent;">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
                                 </p>
@@ -96,8 +96,8 @@
                         </a>
                         <a href="#" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-check-circle"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Hurray! Your website is live</h3>
+                            <div class="timeline-content waviy">
+                                <h3 class="title --i:1">Hurray! Your website is live</h3>
                                 <p class="description"style="color: transparent;">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
                                 </p>
@@ -109,7 +109,32 @@
             </div>
         </div>
         <hr>
-        
+        <script>
+            
+        </script>
+        <div class="waviy">
+            <span style="--i:1">L0</span>
+            
+        </div>
+        <style>
+            .waviy {
+  position: relative;
+}
+.waviy h3 {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(85, 15, 15);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+        </style>
 
 
         <footer>
