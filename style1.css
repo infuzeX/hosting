@@ -87,7 +87,7 @@ h4 {
 .main-timeline .timeline-icon:after {
 	width: 70px;
 	height: 50px;
-	background: #fff;
+	background: transparent;
 	top: 89px;
 	right: -30px;
 }
@@ -2166,12 +2166,16 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 
 
 
+/******************************************************/
 
 
 
-
-
-
-
-
-
+/***********************************************/
+.c1-head{
+	font-size: 2rem;
+}
+@media only screen and (max-width: 600px) {
+	.c1-head{
+		font-size: 1 rem;
+	}
+  }
