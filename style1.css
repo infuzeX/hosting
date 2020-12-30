@@ -941,7 +941,7 @@ p.copyright {
 	}
 
 	.logo {
-		text-align: center;
+		margin:auto
 	}
 
 	.features ul li {
@@ -1898,11 +1898,11 @@ p.copyright {
 
 	.slicknav_btn {
 		font-size: 16px;
-		background: #06c6f9;
+		background: transparent;
 		border-radius: 5px;
-		padding: 7px 10px;
+		padding: 7px 0;
 		display: table;
-		margin: 8px auto;
+		margin: 8px 12px;
 		float: none;
 	}
 
