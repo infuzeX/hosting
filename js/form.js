@@ -13,7 +13,7 @@ document.querySelector('.form').addEventListener('submit', (e) => {
 
 function submitform(data) {
     showMsg('INFO', 'Submitting form please wait');
-    xhr.open('GET', '/php/clients.php');
+    xhr.open('POST', '/php/clients.php');
     xhr.setRequestHeader('Content-type', 'application/json');
     xhr.send(JSON.stringify(data));
 }
